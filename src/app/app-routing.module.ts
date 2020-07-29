@@ -3,13 +3,16 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path: 'home',
-    loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+    path: '',
+    redirectTo: 'tests',
+    pathMatch: 'full'
   },
   {
-    path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
+    path: 'tests',
+    loadChildren: () => import('./geofencing/geofencing.module').then( m => m.GeofencingPageModule)
+    //loadChildren: () => import('./time-to-gate/time-to-gate.module').then( m => m.TimeToGatePageModule)
+    //loadChildren: () => import('./polygon-drawer/polygon-drawer.module').then( m => m.PolygonDrawerPageModule)
+    //loadChildren: () => import('./motion-analysis/motion-analysis.module').then( m => m.MotionAnalysisPageModule)
   },
 ];
 

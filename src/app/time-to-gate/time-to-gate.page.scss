@@ -1,0 +1,61 @@
+#header{
+    text-align: center
+  }
+  
+  #header strong{
+    font-size:1.7rem;
+    color: black;
+    line-height: 6rem;
+  }
+  
+  #header p{
+    display:block;
+    font-size:2rem;
+    color: RGB(0,120,205);
+    line-height: 0.5rem;
+    margin-top: 0;
+  }
+  
+  #flight-info {
+    text-align: center;
+    margin: auto;
+    background-color:#D3D3D3;
+    color:black;
+    display:inline-block;
+    width:100%;
+  }
+  
+  #container {
+    text-align: center;
+    margin: auto;
+    color:black;
+    display:block;
+    width:75%;
+  }
+  
+  .row{
+    background-image: linear-gradient(to right, white, RGB(0,76,205,0.5));
+    margin-bottom:1rem;
+    border: 0.20rem solid RGB(0,96,205);
+    width : 100%;
+    background-color: linear-gradient(to right, white, RGB(0,76,205,0.5));
+  }
+  
+  .row p{
+    display:inline-block;
+  }
+  
+  .row ion-icon{
+    color: RGB(0,76,175);
+    display:inline-block;
+    vertical-align: middle;
+  }
+  
+  .row ion-button{
+    text-transform:none; 
+    color:black;
+    font-family: 'Lato-Light';
+    font-weight: normal;
+    font-style: normal;
+    font-size:1rem;
+  }
