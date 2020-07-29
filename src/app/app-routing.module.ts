@@ -9,7 +9,7 @@ const routes: Routes = [
   },
   {
     path: 'tests',
-    loadChildren: () => import('./geofencing/geofencing.module').then( m => m.GeofencingPageModule)
+    //loadChildren: () => import('./geofencing/geofencing.module').then( m => m.GeofencingPageModule)
     //loadChildren: () => import('./time-to-gate/time-to-gate.module').then( m => m.TimeToGatePageModule)
     //loadChildren: () => import('./polygon-drawer/polygon-drawer.module').then( m => m.PolygonDrawerPageModule)
     //loadChildren: () => import('./motion-analysis/motion-analysis.module').then( m => m.MotionAnalysisPageModule)
