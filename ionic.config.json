@@ -1,5 +1,7 @@
 {
   "name": "GoWith",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,36 @@
+<ion-content [fullscreen]="true">
+    <div id="alerter" style="display:none">0</div>
+    <div id="header">
+      <strong>Boarding Time</strong>
+      <p>5:05 p.m.</p>
+    </div>
+
+    <div id="flight-info">
+      <p>Flight: numbers | Gate: num | Departure: num </p>
+    </div>
+
+    <div id="container">
+      <h1>Go-To-Gate Reminder</h1>
+      <div class="row">
+        <ion-icon size="large" name="walk"></ion-icon>
+        <p> Walking speed:&nbsp; </p>
+        <p id="avg_speed_updater"></p>
+        <p> &nbsp;m/s </p>
+      </div>
+      <div class="row">
+        <ion-icon size="large" name="time"></ion-icon>
+        <p> Time to gate:&nbsp; </p>
+        <p id="time_to_gate"></p>
+        <p> &nbsp;min </p>
+      </div>
+      <div class="row">
+        <ion-button expand="full" fill="clear" (click)="showPicker()">
+          <ion-icon size="large" name="triangle"></ion-icon>
+          <p> Send alert to reach gate: </p>
+          <ion-icon size="small" name="caret-down-circle"></ion-icon>
+        </ion-button>
+      </div>
+      <p><strong> Alert: {{framework}} </strong></p>
+      <p id ="checker"><strong></strong></p>
+    </div>
+</ion-content>
