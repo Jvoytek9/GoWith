@@ -1,6 +1,6 @@
 # What is this
 
-This was an internship I did, and the main contributions I added can be found within the src/app folder. This repo is solely to display a project I had worked on previously. The motionanalysis page was never implemented into the main project due to lack of time, however I failed to preserve the code sadly. So, it is empty.
+This was an internship I did, and the main contributions I added can be found within the src/app folder. This repo is solely to display a project I had worked on previously. The motionanalysis page was never implemented into the main project due to lack of time, however I failed to preserve the code. So, while it worked well, it is sadly empty. The main idea of motionanalysis was analyzing pedometer data using the native apps for both IOS and Android to create functions which can determine whether a user is in line, or currently walking.
 
 # Installation
 
